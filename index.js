@@ -10,7 +10,8 @@ const path = require('path');
 // Calls express() to start a new Express App
 const app = express();
 
-// Allows to serve static files with Express.js
+// app.use() = it will enhance Express.js' functionality
+// express.static() = allows to serve static files with Express.js
 // Note "public" is the client folder
 app.use(express.static('public'));
 
