@@ -36,5 +36,5 @@ const server = http.createServer((req, res) => {
     
 })
 
-// Port 3000 will start taking requests
+// Port 3000 will start taking requests from the browser
 server.listen(3000);
